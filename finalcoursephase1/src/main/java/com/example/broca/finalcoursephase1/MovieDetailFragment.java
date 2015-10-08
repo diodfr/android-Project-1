@@ -33,9 +33,6 @@ public class MovieDetailFragment extends Fragment {
         TextView yearTextView = (TextView) view.findViewById(R.id.movieYear);
         yearTextView.setText(film.releaseDate.split("-")[0]);
 
-        TextView dateTextView = (TextView) view.findViewById(R.id.movieDuration);
-        dateTextView.setText(film.duration);
-
         TextView overviewTextView = (TextView) view.findViewById(R.id.movieOverview);
         overviewTextView.setText(film.overview);
 
